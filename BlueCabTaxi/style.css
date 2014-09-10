@@ -5,6 +5,7 @@
     font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
     margin-left: 16px;
     margin-right: 16px;
+    font-size: 13pt;
 }
 
 div.content
@@ -51,7 +52,7 @@ button:focus {
 input, textarea
 {
     width:100%;
-    border:0;
+    border:1px solid #c8c8c8;
     padding:4px;
     margin:2px;
     resize: none;
@@ -59,6 +60,7 @@ input, textarea
     box-sizing: border-box;
     -webkit-box-sizing:border-box;
     -moz-box-sizing: border-box;
+    font-size: 13pt;
 }
 
 .button
@@ -74,13 +76,13 @@ textarea#message
     margin-bottom:-2px;
 }
 
-table.tickets
+table
 {
     width:100%;
     border-collapse:collapse;
 }
 
-table.tickets tr:first-child td {
+table tr:first-child td {
     font-weight:bold;
     border-bottom:1px solid #959595;
 }
@@ -89,6 +91,7 @@ hr
 {
     height: 1px;
     background: #959595;
-    width: 100%;
-    border:0px;
+    width: 716px;
+    margin-left: -8px;
+    border:0;
 }
